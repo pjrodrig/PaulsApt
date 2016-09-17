@@ -1,5 +1,9 @@
 {
-  "name": "PaulsApt",
+  "name": "paulsApt",
+  "version": "0.0.0",
+  "authors": [
+    "Paul Rodrigue <paul.john.rodrigue@gmail.com"
+  ],
   "description": "",
   "main": "index.html",
   "license": "MIT",
@@ -10,5 +14,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "ui-router#~0.2.15",
+    "angular-bootstrap": "0.14.3",
+    "bootstrap.styles": "3.3.5"
+  }
 }
